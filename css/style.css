@@ -85,6 +85,11 @@ a{
      clear: both;
  } 
 
+ .blocchi{
+    float:left;
+    display: inline-block;
+ }
+
 .sinistra{
     width: 20%;
     height: 20%;
@@ -107,3 +112,16 @@ a{
     color: black;
 }
 
+.centro{
+    float: center;
+    vertical-align: center;
+    box-sizing: border-box;
+
+}
+
+.img2{
+    width: 200px;
+    height: 200px;
+    vertical-align: center;
+    float: left;
+}
