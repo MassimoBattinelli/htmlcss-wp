@@ -119,33 +119,39 @@ a{
 .centro{
     float: center;
     display: inline-block;
+    width: 400px;
+    height: 300px;
 }
 
+.textcenter{
+    text-align: left;
+    display: inline-block;
+    margin-right: 100px;
+    color: lightgrey;
+}
 .img2{
     height: 200px;
     vertical-align: center;
     width: 400px;
-    margin: 0;
     display: inline-block;
-    margin-bottom: 100px;
+}
+
+.destra{
+    float: right;
+    display: inline-block;
+    width: 180px;
+    height: 350px;
 }
 
 .img3{
     height: 200px;
-    vertical-align: right;
-    width: 200px;
-    margin: 0;
+    width: 150px;
     display: inline-block;
+    margin: 0;
 }
 
-.main-footer{
-    margin-top: 500px;
-    height: 80px;
-    margin-bottom: 20px;
-    line-height: 70px;
-    margin-right: -200px;
-}
-
-.textfooter{
-    text-align: center;
+.textdestra{
+    text-align: left;
+    display: inline-block;
+    color: lightgrey;
 }
