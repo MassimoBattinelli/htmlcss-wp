@@ -83,6 +83,7 @@ a{
      content: "";
      display: table;
      clear: both;
+     display: inline-block;
  } 
 
  .blocchi{
@@ -101,27 +102,50 @@ a{
 .img1{
     height: 150px;
     width: 150px;
+    display: inline-block;
 }
 
 .textsx{
     font-size: 10px;
     color: lightgrey;
+    display: inline-block;
 }
 
 .titolo{
     color: black;
+    display: inline-block;
 }
 
 .centro{
     float: center;
-    vertical-align: center;
-    box-sizing: border-box;
-
+    display: inline-block;
 }
 
 .img2{
-    width: 200px;
     height: 200px;
     vertical-align: center;
-    float: left;
+    width: 400px;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 100px;
+}
+
+.img3{
+    height: 200px;
+    vertical-align: right;
+    width: 200px;
+    margin: 0;
+    display: inline-block;
+}
+
+.main-footer{
+    margin-top: 500px;
+    height: 80px;
+    margin-bottom: 20px;
+    line-height: 70px;
+    margin-right: -200px;
+}
+
+.textfooter{
+    text-align: center;
 }
